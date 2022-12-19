@@ -7,6 +7,7 @@ services:
         - .env
       ports:
         - "8890:8888"
+        - "8050:8050"
       networks:
         - dbnetwork
     mongo:
